@@ -1,0 +1,29 @@
+<!-- item_layout.xml -->
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <!-- Your item views go here -->
+    <!-- For example, a TextView to display item text -->
+    <TextView
+        android:id="@+id/itemTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Sample Item"
+        android:padding="8dp"/>
+
+    <!-- View for the floating context menu -->
+    <ImageView
+        android:id="@+id/floatingContextMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_more_vertical" <!-- Change to your icon -->
+    android:layout_alignParentEnd="true"
+    android:layout_centerVertical="true"
+    android:padding="8dp"/>
+
+</RelativeLayout>
